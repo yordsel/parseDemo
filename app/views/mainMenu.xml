@@ -1,0 +1,10 @@
+<Alloy>
+	<Window left="0" width="0" id="mainMenu" class="container" layout="horizontal">
+		<View id="menuItems" left="0">
+			<View id="menuHeader" backgroundColor="BBBBBB" top="0" height="65">
+				<Button id="logOut" onClick="fnLogOut">Log out</Button>
+			</View>
+			<Label onClick="fnHideMainMenu">I see you</Label>
+		</View>
+	</Window>
+</Alloy>

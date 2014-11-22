@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="signUpWin" class="container" title="Sign Up">
+		<ScrollView class="mainFrame" scrollType="vertical" layout = "vertical" >
+			<ImageView class="yrdslLogo" image="/yordsel_logo.png"/>
+			<View class="innerBox" layout="vertical"  top="8%">			
+				<Label class="errorLabel" id="lblSignUpError"  top="15"></Label>
+				<TextField id="tfFirstName" top="15" keyboardType="Titanium.UI.KEYBOARD_DEFAULT" hintText="First Name" onChange="resetSignUpErrorText"/>
+				<TextField id="tfLastName" top="5" keyboardType="Titanium.UI.KEYBOARD_DEFAULT" hintText="Last Name" onChange="resetSignUpErrorText"/>
+				<TextField id="tfEmail" onBlur="checkEmail" onReturn="checkEmail" top="5" hintText="Email Address" keyboardType="Titanium.UI.KEYBOARD_EMAIL" onChange="resetSignUpErrorText"/>
+				<TextField id="tfConfirmEmail" onBlur="checkEmailMatches" onReturn="checkEmailMatches" onFocus="checkEmail" top="5" hintText="Confirm Email Address" keyboardType="Titanium.UI.KEYBOARD_EMAIL" onChange="resetSignUpErrorText"/>
+				<TextField id="tfPassword" top="5" keyboardType="Titanium.UI.KEYBOARD_DEFAULT" hintText="Password" passwordMask="true" onChange="resetSignUpErrorText"/>
+				<Button id="btnSignUp" bottom="7%" onClick="signUpUser" >Sign Up</Button>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

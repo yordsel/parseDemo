@@ -1,0 +1,19 @@
+<Alloy>
+	<Window class="container" layout="vertical" id="groupDetails" title="Group Details" >
+		<RightNavButton platform="ios">
+			<Button onClick="closeMe">Close</Button>
+		</RightNavButton>
+		<ImageView top="15" width="100" id="imgGroupLogo" onClick="showOptions" image="images/addimage.png"/>
+		<TextField id="name" hintText="Name" width="90%"/>
+		<TextField id="description" hintText="Description" width="90%"/>
+		<Button onClick="updateGroup">Save</Button>
+		<Button onClick="deleteGroup">Remove</Button>	
+		<OptionDialog id="odlgPhoto" cancel="2" onClick="showGallery">
+	        <Options>
+	            <Option>Photo Gallery</Option>
+	            <Option>Camera</Option>
+	            <Option>Cancel</Option>
+	        </Options>
+	    </OptionDialog>
+	</Window>
+</Alloy>

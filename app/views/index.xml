@@ -1,0 +1,21 @@
+<Alloy>
+	<Window class="container">
+		<View class="mainFrame" id="homeView" layout = "vertical">
+			<ImageView class="yrdslLogo" image="/yordsel_logo.png"/>
+			<View class="innerBox" id="userView" layout="vertical" top="8%">
+				<Label class="errorLabel" id="lblErrorText" top="2%"></Label>
+				<TextField id="tfUsername" keyboardType="Titanium.UI.KEYBOARD_EMAIL" hintText="Username" onChange="resetErrorText"></TextField>
+				<TextField id="tfPassword" keyboardType="Titanium.UI.KEYBOARD_DEFAULT" hintText="Password" onChange="resetErrorText" passwordMask="true" ></TextField>
+				<Button id="btnSignIn" onClick="signInUser">Sign In</Button>
+				<View layout="horizontal" height="Ti.UI.SIZE" top="8%">
+					<Label class="linkLabel" id="lblResetPassword" width="60%" onClick="showResetPassword">Reset Password</Label>
+					<Label width="5%">|</Label>
+					<Label class="linkLabel" id="lblSignUp" width="35%" onClick="showSignUp">Sign Up</Label>
+				</View>	
+			</View>
+			<View id="fbbtnView" layout="vertical" width="85%" height="Ti.UI.SIZE" >
+				<LoginButton id="btnFB" ns="Alloy.Globals.Facebook" right="0"/>
+			</View>			
+		</View>
+	</Window>
+</Alloy>

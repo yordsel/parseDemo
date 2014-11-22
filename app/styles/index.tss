@@ -1,0 +1,14 @@
+
+"#homeView": {}
+"#userView": {}
+"#fbbtnView": {}
+
+"#tfUsername": {}
+"#tfPassword": {}
+
+"#btnFB": {}
+"#btnSignIn": {}
+
+"#lblErrorText": {}
+"#lblResetPassword": {}
+"#lblSignUp": {}

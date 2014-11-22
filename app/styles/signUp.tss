@@ -1,0 +1,10 @@
+
+"#tfFirstName": {}
+"#tfLastName": {}
+"#tfEmail": {}
+"#tfConfirmEmail": {}
+"#tfPassword": {}
+
+"#lblSignUpError": {}
+
+"#btnSignUp": {}
