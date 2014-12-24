@@ -6,7 +6,7 @@ module.exports.sync = function(method, model, options) {
 	var parseUrl = options.url || BASE_URL;
 	var currentUser = Alloy.Models.instance('user');
 	var sessionToken = options.sessionToken || currentUser.get('sessionToken');
-	
+
 	switch(method) {
 
 		// This case is called by the Model.fetch and Collection.fetch methods to retrieve data.
