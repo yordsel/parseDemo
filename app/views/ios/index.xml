@@ -2,7 +2,6 @@
 	<NavigationWindow id="navGroupWin">
 		<Window class="container" statusBarStyle="Titanium.UI.iPhone.StatusBar.GRAY">
 			<ScrollView class="mainFrame" id="homeView" layout = "vertical">
-				<ImageView class="yrdslLogo" image="/yordsel_logo.png"/>
 				<View class="innerBox" id="userView" layout="vertical" top="8%">
 					<Label class="errorLabel" id="lblErrorText" top="3%"></Label>
 					<TextField id="tfUsername" keyboardType="Titanium.UI.KEYBOARD_EMAIL" hintText="Username" onChange="resetErrorText"></TextField>

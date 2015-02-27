@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.yordsel.parsedemo</id>
+    <id>com.test.parsedemo</id>
     <name>ParseDemo</name>
     <version>1.0</version>
-    <publisher>Yordsel</publisher>
-    <url>http://www.yordsel.com</url>
-    <description>Yordsel Mobile</description>
-    <copyright>2014 by Yordsel</copyright>
+    <publisher>test</publisher>
+    <url>http://www.test.com</url>
+    <description>Parse test app Mobile</description>
+    <copyright>2014 by Srini</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>

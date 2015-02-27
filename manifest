@@ -1,8 +1,8 @@
 #appname:ParseDemo
-#publisher:Yordsel
-#url:http://www.yordsel.com
+#publisher:test
+#url:http://www.test.com
 #image:appicon.png
-#appid:com.yordsel.parsedemo
-#desc:Yordsel Mobile
+#appid:com.test.parsedemo
+#desc:Parse test app Mobile
 #type:ipad
 #guid:91f61a43-9100-4489-8dd0-87a037df7e5d

@@ -1,6 +1,6 @@
 //Globals for Parse access
-Alloy.Globals.APP_ID = "qBFRevzFSiRHfYVXkbQHi9FMLQG0OQdQ69CVInTM";
-Alloy.Globals.API_KEY = "QXAOw05BRwnXB4n7fwIo6NdTvb8ybJ3ugUF6p89c";
+Alloy.Globals.APP_ID = "---Parse Application ID goes here---";
+Alloy.Globals.API_KEY = "---Parse REST API Key goes here---";
 Alloy.Globals.BASE_URL = "https://api.parse.com/1/";
 Alloy.Globals.Facebook = require('Facebook');
 
